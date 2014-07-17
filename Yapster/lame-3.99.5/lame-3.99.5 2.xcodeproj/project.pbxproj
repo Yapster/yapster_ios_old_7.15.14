@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		FFCD9BB81953483C0036C0F9 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		FFCD9BB91953483C0036C0F9 /* acinclude.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = acinclude.m4; sourceTree = "<group>"; };
+		FFCD9BBA1953483C0036C0F9 /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		FFCD9BBB1953483C0036C0F9 /* ACM */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ACM; sourceTree = "<group>"; };
+		FFCD9BBC1953483C0036C0F9 /* API */ = {isa = PBXFileReference; lastKnownFileType = text; path = API; sourceTree = "<group>"; };
+		FFCD9BBD1953483C0036C0F9 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		FFCD9BBE1953483C0036C0F9 /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		FFCD9BBF1953483C0036C0F9 /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		FFCD9BC01953483C0036C0F9 /* config.rpath */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.rpath; sourceTree = "<group>"; };
+		FFCD9BC11953483C0036C0F9 /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		FFCD9BC21953483C0036C0F9 /* configMS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = configMS.h; sourceTree = "<group>"; };
+		FFCD9BC31953483C0036C0F9 /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		FFCD9BC41953483C0036C0F9 /* configure.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.in; sourceTree = "<group>"; };
+		FFCD9BC51953483C0036C0F9 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		FFCD9BC61953483C0036C0F9 /* debian */ = {isa = PBXFileReference; lastKnownFileType = folder; path = debian; sourceTree = "<group>"; };
+		FFCD9BC71953483C0036C0F9 /* DEFINES */ = {isa = PBXFileReference; lastKnownFileType = text; path = DEFINES; sourceTree = "<group>"; };
+		FFCD9BC81953483C0036C0F9 /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		FFCD9BC91953483C0036C0F9 /* Dll */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dll; sourceTree = "<group>"; };
+		FFCD9BCA1953483C0036C0F9 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		FFCD9BCB1953483C0036C0F9 /* dshow */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dshow; sourceTree = "<group>"; };
+		FFCD9BCC1953483C0036C0F9 /* frontend */ = {isa = PBXFileReference; lastKnownFileType = folder; path = frontend; sourceTree = "<group>"; };
+		FFCD9BCD1953483C0036C0F9 /* HACKING */ = {isa = PBXFileReference; lastKnownFileType = text; path = HACKING; sourceTree = "<group>"; };
+		FFCD9BCE1953483C0036C0F9 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		FFCD9BCF1953483C0036C0F9 /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		FFCD9BD01953483C0036C0F9 /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		FFCD9BD11953483C0036C0F9 /* INSTALL.configure */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL.configure; sourceTree = "<group>"; };
+		FFCD9BD21953483C0036C0F9 /* lame-3.99.5.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "lame-3.99.5.xcodeproj"; sourceTree = "<group>"; };
+		FFCD9BD51953483C0036C0F9 /* lame.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = lame.bat; sourceTree = "<group>"; };
+		FFCD9BD61953483C0036C0F9 /* lame.spec */ = {isa = PBXFileReference; lastKnownFileType = text; path = lame.spec; sourceTree = "<group>"; };
+		FFCD9BD71953483C0036C0F9 /* lame.spec.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = lame.spec.in; sourceTree = "<group>"; };
+		FFCD9BD81953483C0036C0F9 /* libmp3lame */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libmp3lame; sourceTree = "<group>"; };
+		FFCD9BD91953483C0036C0F9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FFCD9BDA1953483C0036C0F9 /* ltmain.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		FFCD9BDB1953483C0036C0F9 /* mac */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mac; sourceTree = "<group>"; };
+		FFCD9BDC1953483C0036C0F9 /* macosx */ = {isa = PBXFileReference; lastKnownFileType = folder; path = macosx; sourceTree = "<group>"; };
+		FFCD9BDD1953483C0036C0F9 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FFCD9BDE1953483C0036C0F9 /* Makefile.am.global */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am.global; sourceTree = "<group>"; };
+		FFCD9BDF1953483C0036C0F9 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FFCD9BE01953483C0036C0F9 /* Makefile.MSVC */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.MSVC; sourceTree = "<group>"; };
+		FFCD9BE11953483C0036C0F9 /* Makefile.unix */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.unix; sourceTree = "<group>"; };
+		FFCD9BE21953483C0036C0F9 /* misc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = misc; sourceTree = "<group>"; };
+		FFCD9BE31953483C0036C0F9 /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		FFCD9BE41953483C0036C0F9 /* mpglib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mpglib; sourceTree = "<group>"; };
+		FFCD9BE51953483C0036C0F9 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		FFCD9BE61953483C0036C0F9 /* README.WINGTK */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.WINGTK; sourceTree = "<group>"; };
+		FFCD9BE71953483C0036C0F9 /* STYLEGUIDE */ = {isa = PBXFileReference; lastKnownFileType = text; path = STYLEGUIDE; sourceTree = "<group>"; };
+		FFCD9BE81953483C0036C0F9 /* testcase.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = testcase.mp3; sourceTree = "<group>"; };
+		FFCD9BE91953483C0036C0F9 /* testcase.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = testcase.wav; sourceTree = "<group>"; };
+		FFCD9BEA1953483C0036C0F9 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		FFCD9BEB1953483C0036C0F9 /* USAGE */ = {isa = PBXFileReference; lastKnownFileType = text; path = USAGE; sourceTree = "<group>"; };
+		FFCD9BEC1953483C0036C0F9 /* vc_solution */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vc_solution; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		FFCD9BB21953483C0036C0F9 = {
+			isa = PBXGroup;
+			children = (
+				FFCD9BB81953483C0036C0F9 /* .DS_Store */,
+				FFCD9BB91953483C0036C0F9 /* acinclude.m4 */,
+				FFCD9BBA1953483C0036C0F9 /* aclocal.m4 */,
+				FFCD9BBB1953483C0036C0F9 /* ACM */,
+				FFCD9BBC1953483C0036C0F9 /* API */,
+				FFCD9BBD1953483C0036C0F9 /* ChangeLog */,
+				FFCD9BBE1953483C0036C0F9 /* config.guess */,
+				FFCD9BBF1953483C0036C0F9 /* config.h.in */,
+				FFCD9BC01953483C0036C0F9 /* config.rpath */,
+				FFCD9BC11953483C0036C0F9 /* config.sub */,
+				FFCD9BC21953483C0036C0F9 /* configMS.h */,
+				FFCD9BC31953483C0036C0F9 /* configure */,
+				FFCD9BC41953483C0036C0F9 /* configure.in */,
+				FFCD9BC51953483C0036C0F9 /* COPYING */,
+				FFCD9BC61953483C0036C0F9 /* debian */,
+				FFCD9BC71953483C0036C0F9 /* DEFINES */,
+				FFCD9BC81953483C0036C0F9 /* depcomp */,
+				FFCD9BC91953483C0036C0F9 /* Dll */,
+				FFCD9BCA1953483C0036C0F9 /* doc */,
+				FFCD9BCB1953483C0036C0F9 /* dshow */,
+				FFCD9BCC1953483C0036C0F9 /* frontend */,
+				FFCD9BCD1953483C0036C0F9 /* HACKING */,
+				FFCD9BCE1953483C0036C0F9 /* include */,
+				FFCD9BCF1953483C0036C0F9 /* INSTALL */,
+				FFCD9BD01953483C0036C0F9 /* install-sh */,
+				FFCD9BD11953483C0036C0F9 /* INSTALL.configure */,
+				FFCD9BD21953483C0036C0F9 /* lame-3.99.5.xcodeproj */,
+				FFCD9BD51953483C0036C0F9 /* lame.bat */,
+				FFCD9BD61953483C0036C0F9 /* lame.spec */,
+				FFCD9BD71953483C0036C0F9 /* lame.spec.in */,
+				FFCD9BD81953483C0036C0F9 /* libmp3lame */,
+				FFCD9BD91953483C0036C0F9 /* LICENSE */,
+				FFCD9BDA1953483C0036C0F9 /* ltmain.sh */,
+				FFCD9BDB1953483C0036C0F9 /* mac */,
+				FFCD9BDC1953483C0036C0F9 /* macosx */,
+				FFCD9BDD1953483C0036C0F9 /* Makefile.am */,
+				FFCD9BDE1953483C0036C0F9 /* Makefile.am.global */,
+				FFCD9BDF1953483C0036C0F9 /* Makefile.in */,
+				FFCD9BE01953483C0036C0F9 /* Makefile.MSVC */,
+				FFCD9BE11953483C0036C0F9 /* Makefile.unix */,
+				FFCD9BE21953483C0036C0F9 /* misc */,
+				FFCD9BE31953483C0036C0F9 /* missing */,
+				FFCD9BE41953483C0036C0F9 /* mpglib */,
+				FFCD9BE51953483C0036C0F9 /* README */,
+				FFCD9BE61953483C0036C0F9 /* README.WINGTK */,
+				FFCD9BE71953483C0036C0F9 /* STYLEGUIDE */,
+				FFCD9BE81953483C0036C0F9 /* testcase.mp3 */,
+				FFCD9BE91953483C0036C0F9 /* testcase.wav */,
+				FFCD9BEA1953483C0036C0F9 /* TODO */,
+				FFCD9BEB1953483C0036C0F9 /* USAGE */,
+				FFCD9BEC1953483C0036C0F9 /* vc_solution */,
+			);
+			sourceTree = "<group>";
+		};
+		FFCD9BD31953483C0036C0F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		FFCD9BB71953483C0036C0F9 /* lame-3.99.5 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = FFCD9BEE1953483C0036C0F9 /* Build configuration list for PBXLegacyTarget "lame-3.99.5" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Applications/Yapster/Yapster/lame-3.99.5";
+			dependencies = (
+			);
+			name = "lame-3.99.5";
+			passBuildSettingsInEnvironment = 1;
+			productName = "lame-3.99.5";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		FFCD9BB31953483C0036C0F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = FFCD9BB61953483C0036C0F9 /* Build configuration list for PBXProject "lame-3.99.5 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFCD9BB21953483C0036C0F9;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FFCD9BD31953483C0036C0F9 /* Products */;
+					ProjectRef = FFCD9BD21953483C0036C0F9 /* lame-3.99.5.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FFCD9BB71953483C0036C0F9 /* lame-3.99.5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		FFCD9BB41953483C0036C0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		FFCD9BB51953483C0036C0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		FFCD9BEF1953483C0036C0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "lame-3.99.5";
+			};
+			name = Debug;
+		};
+		FFCD9BF01953483C0036C0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "lame-3.99.5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFCD9BB61953483C0036C0F9 /* Build configuration list for PBXProject "lame-3.99.5 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCD9BB41953483C0036C0F9 /* Debug */,
+				FFCD9BB51953483C0036C0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCD9BEE1953483C0036C0F9 /* Build configuration list for PBXLegacyTarget "lame-3.99.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCD9BEF1953483C0036C0F9 /* Debug */,
+				FFCD9BF01953483C0036C0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFCD9BB31953483C0036C0F9 /* Project object */;
+}

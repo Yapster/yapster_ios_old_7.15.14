@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		FFCD9B7A195347DA0036C0F9 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		FFCD9B7B195347DA0036C0F9 /* bitstream.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		FFCD9B7C195347DA0036C0F9 /* bitstream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		FFCD9B7D195347DA0036C0F9 /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		FFCD9B7E195347DA0036C0F9 /* encoder.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = encoder.c; sourceTree = "<group>"; };
+		FFCD9B7F195347DA0036C0F9 /* encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = encoder.h; sourceTree = "<group>"; };
+		FFCD9B80195347DA0036C0F9 /* fft.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fft.c; sourceTree = "<group>"; };
+		FFCD9B81195347DA0036C0F9 /* fft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fft.h; sourceTree = "<group>"; };
+		FFCD9B82195347DA0036C0F9 /* gain_analysis.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gain_analysis.c; sourceTree = "<group>"; };
+		FFCD9B83195347DA0036C0F9 /* gain_analysis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gain_analysis.h; sourceTree = "<group>"; };
+		FFCD9B84195347DA0036C0F9 /* i386 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = i386; sourceTree = "<group>"; };
+		FFCD9B85195347DA0036C0F9 /* id3tag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = id3tag.c; sourceTree = "<group>"; };
+		FFCD9B86195347DA0036C0F9 /* id3tag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = id3tag.h; sourceTree = "<group>"; };
+		FFCD9B87195347DA0036C0F9 /* l3side.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = l3side.h; sourceTree = "<group>"; };
+		FFCD9B88195347DA0036C0F9 /* lame-analysis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lame-analysis.h"; sourceTree = "<group>"; };
+		FFCD9B89195347DA0036C0F9 /* lame.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lame.c; sourceTree = "<group>"; };
+		FFCD9B8A195347DA0036C0F9 /* lame.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = lame.rc; sourceTree = "<group>"; };
+		FFCD9B8B195347DA0036C0F9 /* lame_global_flags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lame_global_flags.h; sourceTree = "<group>"; };
+		FFCD9B8C195347DA0036C0F9 /* lameerror.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lameerror.h; sourceTree = "<group>"; };
+		FFCD9B8D195347DA0036C0F9 /* logoe.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = logoe.ico; sourceTree = "<group>"; };
+		FFCD9B8E195347DA0036C0F9 /* machine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = machine.h; sourceTree = "<group>"; };
+		FFCD9B8F195347DA0036C0F9 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		FFCD9B90195347DA0036C0F9 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		FFCD9B91195347DA0036C0F9 /* mpglib_interface.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mpglib_interface.c; sourceTree = "<group>"; };
+		FFCD9B92195347DA0036C0F9 /* newmdct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = newmdct.c; sourceTree = "<group>"; };
+		FFCD9B93195347DA0036C0F9 /* newmdct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newmdct.h; sourceTree = "<group>"; };
+		FFCD9B94195347DA0036C0F9 /* presets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = presets.c; sourceTree = "<group>"; };
+		FFCD9B95195347DA0036C0F9 /* psymodel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = psymodel.c; sourceTree = "<group>"; };
+		FFCD9B96195347DA0036C0F9 /* psymodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = psymodel.h; sourceTree = "<group>"; };
+		FFCD9B97195347DA0036C0F9 /* quantize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quantize.c; sourceTree = "<group>"; };
+		FFCD9B98195347DA0036C0F9 /* quantize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quantize.h; sourceTree = "<group>"; };
+		FFCD9B99195347DA0036C0F9 /* quantize_pvt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quantize_pvt.c; sourceTree = "<group>"; };
+		FFCD9B9A195347DA0036C0F9 /* quantize_pvt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quantize_pvt.h; sourceTree = "<group>"; };
+		FFCD9B9B195347DA0036C0F9 /* reservoir.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reservoir.c; sourceTree = "<group>"; };
+		FFCD9B9C195347DA0036C0F9 /* reservoir.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reservoir.h; sourceTree = "<group>"; };
+		FFCD9B9D195347DA0036C0F9 /* set_get.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = set_get.c; sourceTree = "<group>"; };
+		FFCD9B9E195347DA0036C0F9 /* set_get.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = set_get.h; sourceTree = "<group>"; };
+		FFCD9B9F195347DA0036C0F9 /* tables.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tables.c; sourceTree = "<group>"; };
+		FFCD9BA0195347DA0036C0F9 /* tables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tables.h; sourceTree = "<group>"; };
+		FFCD9BA1195347DA0036C0F9 /* takehiro.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = takehiro.c; sourceTree = "<group>"; };
+		FFCD9BA2195347DA0036C0F9 /* util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		FFCD9BA3195347DA0036C0F9 /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		FFCD9BA4195347DA0036C0F9 /* vbrquantize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vbrquantize.c; sourceTree = "<group>"; };
+		FFCD9BA5195347DA0036C0F9 /* vbrquantize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vbrquantize.h; sourceTree = "<group>"; };
+		FFCD9BA6195347DA0036C0F9 /* VbrTag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = VbrTag.c; sourceTree = "<group>"; };
+		FFCD9BA7195347DA0036C0F9 /* VbrTag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VbrTag.h; sourceTree = "<group>"; };
+		FFCD9BA8195347DA0036C0F9 /* vector */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vector; sourceTree = "<group>"; };
+		FFCD9BA9195347DA0036C0F9 /* version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		FFCD9BAA195347DA0036C0F9 /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		FFCD9B74195347DA0036C0F9 = {
+			isa = PBXGroup;
+			children = (
+				FFCD9B7A195347DA0036C0F9 /* .DS_Store */,
+				FFCD9B7B195347DA0036C0F9 /* bitstream.c */,
+				FFCD9B7C195347DA0036C0F9 /* bitstream.h */,
+				FFCD9B7D195347DA0036C0F9 /* depcomp */,
+				FFCD9B7E195347DA0036C0F9 /* encoder.c */,
+				FFCD9B7F195347DA0036C0F9 /* encoder.h */,
+				FFCD9B80195347DA0036C0F9 /* fft.c */,
+				FFCD9B81195347DA0036C0F9 /* fft.h */,
+				FFCD9B82195347DA0036C0F9 /* gain_analysis.c */,
+				FFCD9B83195347DA0036C0F9 /* gain_analysis.h */,
+				FFCD9B84195347DA0036C0F9 /* i386 */,
+				FFCD9B85195347DA0036C0F9 /* id3tag.c */,
+				FFCD9B86195347DA0036C0F9 /* id3tag.h */,
+				FFCD9B87195347DA0036C0F9 /* l3side.h */,
+				FFCD9B88195347DA0036C0F9 /* lame-analysis.h */,
+				FFCD9B89195347DA0036C0F9 /* lame.c */,
+				FFCD9B8A195347DA0036C0F9 /* lame.rc */,
+				FFCD9B8B195347DA0036C0F9 /* lame_global_flags.h */,
+				FFCD9B8C195347DA0036C0F9 /* lameerror.h */,
+				FFCD9B8D195347DA0036C0F9 /* logoe.ico */,
+				FFCD9B8E195347DA0036C0F9 /* machine.h */,
+				FFCD9B8F195347DA0036C0F9 /* Makefile.am */,
+				FFCD9B90195347DA0036C0F9 /* Makefile.in */,
+				FFCD9B91195347DA0036C0F9 /* mpglib_interface.c */,
+				FFCD9B92195347DA0036C0F9 /* newmdct.c */,
+				FFCD9B93195347DA0036C0F9 /* newmdct.h */,
+				FFCD9B94195347DA0036C0F9 /* presets.c */,
+				FFCD9B95195347DA0036C0F9 /* psymodel.c */,
+				FFCD9B96195347DA0036C0F9 /* psymodel.h */,
+				FFCD9B97195347DA0036C0F9 /* quantize.c */,
+				FFCD9B98195347DA0036C0F9 /* quantize.h */,
+				FFCD9B99195347DA0036C0F9 /* quantize_pvt.c */,
+				FFCD9B9A195347DA0036C0F9 /* quantize_pvt.h */,
+				FFCD9B9B195347DA0036C0F9 /* reservoir.c */,
+				FFCD9B9C195347DA0036C0F9 /* reservoir.h */,
+				FFCD9B9D195347DA0036C0F9 /* set_get.c */,
+				FFCD9B9E195347DA0036C0F9 /* set_get.h */,
+				FFCD9B9F195347DA0036C0F9 /* tables.c */,
+				FFCD9BA0195347DA0036C0F9 /* tables.h */,
+				FFCD9BA1195347DA0036C0F9 /* takehiro.c */,
+				FFCD9BA2195347DA0036C0F9 /* util.c */,
+				FFCD9BA3195347DA0036C0F9 /* util.h */,
+				FFCD9BA4195347DA0036C0F9 /* vbrquantize.c */,
+				FFCD9BA5195347DA0036C0F9 /* vbrquantize.h */,
+				FFCD9BA6195347DA0036C0F9 /* VbrTag.c */,
+				FFCD9BA7195347DA0036C0F9 /* VbrTag.h */,
+				FFCD9BA8195347DA0036C0F9 /* vector */,
+				FFCD9BA9195347DA0036C0F9 /* version.c */,
+				FFCD9BAA195347DA0036C0F9 /* version.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		FFCD9B79195347DA0036C0F9 /* libmp3lame */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = FFCD9BAB195347DA0036C0F9 /* Build configuration list for PBXLegacyTarget "libmp3lame" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Applications/Yapster/Yapster/lame-3.99.5/libmp3lame";
+			dependencies = (
+			);
+			name = libmp3lame;
+			passBuildSettingsInEnvironment = 1;
+			productName = libmp3lame;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		FFCD9B75195347DA0036C0F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = FFCD9B78195347DA0036C0F9 /* Build configuration list for PBXProject "libmp3lame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFCD9B74195347DA0036C0F9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFCD9B79195347DA0036C0F9 /* libmp3lame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		FFCD9B76195347DA0036C0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		FFCD9B77195347DA0036C0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		FFCD9BAC195347DA0036C0F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libmp3lame;
+			};
+			name = Debug;
+		};
+		FFCD9BAD195347DA0036C0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libmp3lame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFCD9B78195347DA0036C0F9 /* Build configuration list for PBXProject "libmp3lame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCD9B76195347DA0036C0F9 /* Debug */,
+				FFCD9B77195347DA0036C0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCD9BAB195347DA0036C0F9 /* Build configuration list for PBXLegacyTarget "libmp3lame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCD9BAC195347DA0036C0F9 /* Debug */,
+				FFCD9BAD195347DA0036C0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFCD9B75195347DA0036C0F9 /* Project object */;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Section 1</key>
+	<array>
+		<string></string>
+		<string>Stream</string>
+		<string>Player</string>
+		<string>Explore</string>
+		<string>Notifications</string>
+		<string>Settings</string>
+		<string>Rate This App</string>
+		<string>Report A Problem</string>
+		<string>Log Out</string>
+	</array>
+</dict>
+</plist>
